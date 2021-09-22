@@ -15,7 +15,7 @@ test('check test with positve sanitizeamounts of users data' ,t => {
 
 
 test('check test with some minus sanitizeamounts of users data' ,t => {
-//Verifying for Expected second as First argument for t.is is Actual
+//Verifying for the Expected second as First argument for t.is is Actual
   t.deepEqual(sanitizeAmounts([1000, -600, 300.56, 121.67, -100]), 722.23)
   
   test('check test  with many minus sanitizeamounts of users data' ,t => {
